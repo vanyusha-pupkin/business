@@ -4,22 +4,22 @@
     <!-------------------- head -------------------->
 
 @@include('html/_head.html', {
-  'title': ''
+  'title': 'Business'
 })
 
   <body class="page__body  page-body">
     <div class="page__wrapper">
 
 
-      <!----------------- svg-sprite ----------------->
-<!--       <div class="visually-hidden">
-        @include('img/svg-sprite/sprite.svg')
-      </div> -->
+<!----------------- svg-sprite ----------------->
+      <div class="visually-hidden">
+        @@include('img/svg-sprite/sprite.svg')
+      </div>
 
-      <!------------------- header ------------------->
+<!------------------- header ------------------->
       @@include('html/_header.html', {})
 
-      <!------------------- content ------------------>
+<!------------------- content ------------------>
 
       <main class="page__main  page-main">
 
@@ -34,15 +34,15 @@
       </main>
 
 
-    <!------------------- footer ------------------->
+<!------------------- footer ------------------->
     @@include('html/_footer.html', {})
 
     </div>  <!-- page-body__wrapper -->
 
-    <!---------------- modal-windows --------------->
+<!---------------- modal-windows --------------->
     <!-- @include('html/_modal.html', {}) -->
 
-    <!------------- script-connection -------------->
+<!------------- script-connection -------------->
     <script src="js/main.min.js"></script>
 
   </body>
