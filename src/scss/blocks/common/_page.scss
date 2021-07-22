@@ -6,6 +6,8 @@
 
 .page__body {
   min-width: $width-min;
+  height: 100%;
+
 
   &--lock {
     overflow: hidden;
@@ -15,6 +17,7 @@
 .page__wrapper {
   display: flex;
   flex-direction: column;
+  min-height: 100%;
 
   overflow: hidden;
 }
