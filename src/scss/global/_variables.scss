@@ -18,8 +18,8 @@ $padding-bp-3:      $p-bp-3 + px;
 // $padding-width-max: $p-w-max + px;
 
 //SIZE
-$w-layout: 1920;
-$w-max: 1200;
+$w-layout: 1440;
+$w-max: 1170;
 $w-bp-1: 970;
 $w-bp-2: 750;
 $w-bp-3: 420;
@@ -50,14 +50,17 @@ $bp-4: 479.98;
 //COLOR
 $color-black: #000000;
 $color-white: #ffffff;
+$color-grey: #646667;
+$color-blue: #007397;
+$color-header: #3C3F3D;
 
 
 //FONT
-$font-family-base: "Arial", sans-serif;
+$font-family-base: "Montserrat", "Arial", sans-serif;
 $font-size-base: 16px;
-$line-height-base: 140%;
+$line-height-base: 120%;
 $font-weight-base: 400;
-$font-color-base: $color-black;
+$font-color-base: $color-grey;
 
 //BACKGROUND
 $body-bg-color: $color-white;
