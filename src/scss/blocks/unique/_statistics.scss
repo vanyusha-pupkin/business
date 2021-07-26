@@ -1,0 +1,69 @@
+.statistics {
+  // margin-bottom: 100px;
+}
+
+.statistics__title {}
+
+.statistics__text {
+  max-width: 670px;
+  // margin-bottom: 50px;
+  @include adaptiv-value("margin-bottom", 50, 20, 1);
+
+
+  @include adaptiv-font(20, 14, 1);
+  line-height: calc(36 / 20 * 100%);
+  font-weight: 300;
+}
+
+.statistics__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 15px;
+  margin: 0 -10px;
+  // margin-bottom: calc(56px - 20px);
+  @include adaptiv-value("margin-bottom", 36, 6, 1);
+
+
+  @media (max-width: $bp-2+px) {
+    justify-content: center;
+  }
+}
+
+.statistics__item {
+  padding: 0 10px;
+  margin-bottom: 20px;
+
+  text-align: center;
+  color: $color-blue;
+
+  @media (max-width: $bp-2+px) {
+    flex: 0 0 33.333%;
+  }
+
+  @media (max-width: $bp-3+px) {
+    flex: 0 0 50%;
+  }
+}
+
+.statistics__value {
+  font-family: "PT Serif", "Times New Roman", Times, Baskerville, Georgia, serif;
+  // font-size: 54px;
+  @include adaptiv-font(54, 40, 1);
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.statistics__name {
+  // font-size: 16px;
+  @include adaptiv-font(16, 12, 1);
+  line-height: 120%;
+}
+
+.statistics__button {
+  min-width: 270px;
+
+  @media (max-width: $bp-4+px) {
+    width: 100%;
+  }
+}
